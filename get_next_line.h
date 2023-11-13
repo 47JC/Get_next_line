@@ -8,6 +8,8 @@
 #include <strings.h>
 
 char *get_next_line(int fd);
+char *ft_cat(char *dest);
+int	ft_strlen(char *str);
 
 #ifndef BUFFER_SIZE
 # define BUFFER_SIZE 42
